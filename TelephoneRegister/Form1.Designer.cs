@@ -160,7 +160,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(802, 453);
             Controls.Add(btnDelete);
             Controls.Add(btnUpdate);
             Controls.Add(btnAdd);
@@ -174,6 +174,8 @@
             Controls.Add(txtBoxID);
             Controls.Add(dgvTelephoneList);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximumSize = new Size(820, 500);
+            MinimumSize = new Size(820, 500);
             Name = "Form1";
             Text = "Telephone Register";
             Load += Form1_Load;
