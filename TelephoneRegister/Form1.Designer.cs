@@ -128,32 +128,29 @@
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(433, 19);
+            btnAdd.Location = new Point(324, 21);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(94, 29);
+            btnAdd.Size = new Size(94, 84);
             btnAdd.TabIndex = 9;
             btnAdd.Tag = "1";
-            btnAdd.Text = "Add";
             btnAdd.UseVisualStyleBackColor = true;
             // 
             // btnUpdate
             // 
-            btnUpdate.Location = new Point(433, 52);
+            btnUpdate.Location = new Point(440, 21);
             btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(94, 29);
+            btnUpdate.Size = new Size(94, 84);
             btnUpdate.TabIndex = 10;
             btnUpdate.Tag = "2";
-            btnUpdate.Text = "Update";
             btnUpdate.UseVisualStyleBackColor = true;
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(433, 85);
+            btnDelete.Location = new Point(553, 21);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(94, 29);
+            btnDelete.Size = new Size(94, 84);
             btnDelete.TabIndex = 11;
             btnDelete.Tag = "3";
-            btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
             // 
             // Form1

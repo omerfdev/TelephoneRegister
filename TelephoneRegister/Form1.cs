@@ -17,6 +17,12 @@ namespace TelephoneRegister
             btnAdd.Click += Click;
             btnUpdate.Click += Click;
             btnDelete.Click += Click;
+            btnAdd.BackgroundImage = Image.FromFile("C:\\Users\\omerf\\source\\repos\\TelephoneRegister\\TelephoneRegister\\Image\\32378_add_plus_icon.png");
+            btnAdd.BackgroundImageLayout = ImageLayout.Stretch;
+            btnDelete.BackgroundImage = Image.FromFile("C:\\Users\\omerf\\source\\repos\\TelephoneRegister\\TelephoneRegister\\Image\\9004852_trash_delete_bin_remove_icon.png");
+            btnDelete.BackgroundImageLayout = ImageLayout.Stretch;
+            btnUpdate.BackgroundImage = Image.FromFile("C:\\Users\\omerf\\source\\repos\\TelephoneRegister\\TelephoneRegister\\Image\\308216_refresh_icon.png");
+            btnUpdate.BackgroundImageLayout= ImageLayout.Stretch;
         }
         private void Click(object sender, EventArgs e)
         {
